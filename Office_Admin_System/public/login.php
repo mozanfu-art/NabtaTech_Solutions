@@ -25,8 +25,8 @@ render_header('Login');
 <div class="login-panel card glass-card tech-card">
     <div class="card-body p-4">
         <div class="text-center mb-3">
-            <img src="assets/img/logo.svg" alt="NabtaTech" class="brand-logo mb-2">
-            <h1 class="h4 mb-1">NabtaTech Solutions</h1>
+            <img src="assets/img/NabtaTech_Logo.png" alt="NabtaTech" class="login-logo mb-2">
+            <h1 class="h4 mb-1 brand-text">NabtaTech Solutions</h1>
             <p class="text-muted mb-0">IT Solutions & Managed Services Platform</p>
         </div>
 

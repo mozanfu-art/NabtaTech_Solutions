@@ -22,8 +22,8 @@ function render_header(string $title, ?array $user = null): void
 <header class="site-header shadow-sm sticky-top">
     <nav class="navbar navbar-expand-xl navbar-dark container py-2">
         <a class="navbar-brand d-flex align-items-center gap-2" href="dashboard.php">
-            <img src="assets/img/logo.svg" alt="NabtaTech" class="brand-logo">
-            <span class="fw-semibold">NabtaTech MSP Suite</span>
+            <img src="assets/img/NabtaTech_Logo.png" alt="NabtaTech Solutions" class="brand-logo">
+            <span class="fw-semibold brand-text">NabtaTech MSP Suite</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
             <span class="navbar-toggler-icon"></span>
