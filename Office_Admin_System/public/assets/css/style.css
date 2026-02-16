@@ -1,0 +1,71 @@
+﻿body {
+    background:
+        radial-gradient(circle at 12% 15%, rgba(14, 165, 233, 0.2), transparent 32%),
+        radial-gradient(circle at 88% 18%, rgba(56, 189, 248, 0.15), transparent 30%),
+        linear-gradient(180deg, #0b1220 0%, #dbeafe 45%, #f8fafc 100%);
+    min-height: 100vh;
+    color: #0f172a;
+}
+
+.site-header {
+    background: linear-gradient(110deg, #020617 0%, #0f172a 35%, #0369a1 100%);
+    border-bottom: 1px solid rgba(148, 163, 184, 0.4);
+}
+
+.dropdown-menu-dark {
+    --bs-dropdown-bg: #0f172a;
+}
+
+.site-footer {
+    background: #020617;
+    color: #d1d5db;
+}
+
+.brand-logo {
+    width: 36px;
+    height: 36px;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.93);
+    border: 1px solid rgba(148, 163, 184, 0.35);
+    backdrop-filter: blur(6px);
+}
+
+.tech-card {
+    border: 1px solid rgba(14, 116, 144, 0.2);
+    box-shadow: 0 12px 32px rgba(2, 6, 23, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tech-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 16px 40px rgba(2, 6, 23, 0.14);
+}
+
+.module-pill {
+    letter-spacing: 0.05em;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+}
+
+.login-panel {
+    max-width: 460px;
+    margin: 4rem auto;
+}
+
+.table thead {
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+.kpi {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.quick-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75rem;
+}
